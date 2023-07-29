@@ -66,7 +66,7 @@ backup=$PWD
 #备份工作目录以免找不到下一步脚本
 #现在可随意修改工作目录位置
 
-git clone https://github.com/shidahuilang/openwrt-package.git --depth=1 --branch=official-master ./package/addons
+git clone https://github.com/shidahuilang/openwrt-package.git --depth=1 --branch=Official ./package/addons
 
 rm -rf ./package/addons/luci-theme-argon
 rm -rf ./package/addons/luci-app-argon-config
